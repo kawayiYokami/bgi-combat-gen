@@ -1,0 +1,12 @@
+{
+ "version": "2.0",
+ "operations": [
+  {
+   "name": "宵宫",
+   "condition": "e-ready(宵宫)",
+   "action": "e, wait(0.3), @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "站场主 C，E 起手 → 连续普攻 10 秒（@A1 ×10）→ Q 收尾。"
+}

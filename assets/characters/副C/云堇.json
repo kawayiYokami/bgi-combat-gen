@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "2.4",
+ "operations": [
+  {
+   "name": "云堇",
+   "condition": "e-ready(云堇) && since(云堇) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "E 优先于 Q，让她吃到自己 E 产生的岩球；点按即可，长按只多 0.5 颗球却要 2.5 秒前摇。"
+}

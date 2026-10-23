@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.7",
+ "operations": [
+  {
+   "name": "菈乌玛",
+   "condition": "e-ready(菈乌玛) && since(菈乌玛) > 12",
+   "action": "@E10, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "副 C，狂点 E 1 秒（@E10）后开元素爆发。"
+}

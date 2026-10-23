@@ -1,0 +1,13 @@
+{
+ "duration": 14,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "香菱",
+   "condition": "e-ready(香菱) && since(香菱) > 12",
+   "action": "@A2, q, e, wait(0.3)"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台副 C，Q（旋火轮）与 E（锅巴）放完即下场，普攻无价值。q 释放后 BGI 已内置 1.7 秒，不需要再补 wait。"
+}

@@ -1,0 +1,12 @@
+{
+ "version": "2.0",
+ "operations": [
+  {
+   "name": "神里绫华",
+   "condition": "e-ready(神里绫华)",
+   "action": "keypress(VK_Q), keypress(VK_E), dash, @A8, @重击, keypress(VK_Q), keypress(VK_E), dash, @A8, @重击, keypress(VK_Q), keypress(VK_E), dash, @A8, @重击, keypress(VK_Q), keypress(VK_E), dash, @A8, @重击, keypress(VK_Q), keypress(VK_E), dash, @A8, @重击"
+  }
+ ],
+ "confidence": "中",
+ "note": "冰系站场主 C，一轮 = 自己按 Q（keypress）→ 自己按 E（keypress，不用官方 e）→ 向前闪避 dash → 划水普攻 0.8 秒（@A8）→ 重击（@重击 = charge + wait(0.55)），共 5 轮。重击后等 0.55 秒是为了等后摇结束再接下一轮。"
+}

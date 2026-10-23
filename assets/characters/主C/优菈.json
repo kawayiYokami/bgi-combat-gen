@@ -1,0 +1,12 @@
+{
+ "version": "1.5",
+ "operations": [
+  {
+   "name": "优菈",
+   "condition": "e-ready(优菈)",
+   "action": "e, wait(0.3), q, attack(0.6), e(hold), wait(0.3), wait(0.1), attack(0.6)"
+  }
+ ],
+ "confidence": "中",
+ "note": "物理大剑 C，核心是 Q 的光降之剑 7 秒内叠层后爆炸。标准爆发连招 tE→Q→N4→hE→N4（第 13 层左右）；N4 = attack(0.6)，长按 E 后微停 0.1 秒让剑影与下一段 N1 错开叠层 ICD。"
+}

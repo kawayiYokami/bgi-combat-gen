@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "2.8",
+ "operations": [
+  {
+   "name": "鹿野院平藏",
+   "condition": "e-ready(鹿野院平藏) && since(鹿野院平藏) > 12",
+   "action": "attack, charge(0.8), @A2, q, e, wait(0.3)"
+  }
+ ],
+ "confidence": "中",
+ "note": "速切副 C：标准连招 N1CQE（1 段普攻 → 重击 → Q → E），E 放最后吃满层数；重击帧 48≈0.8 秒。C1 以上可简化为 N1QE。"
+}

@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "伊安珊",
+   "condition": "e-ready(伊安珊) && since(伊安珊) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "低",
+ "note": "EQ 即可，普攻对后台轴无价值。"
+}

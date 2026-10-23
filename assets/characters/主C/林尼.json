@@ -1,0 +1,12 @@
+{
+ "version": "4.0",
+ "operations": [
+  {
+   "name": "林尼",
+   "condition": "e-ready(林尼)",
+   "action": "q, e, wait(0.3)"
+  }
+ ],
+ "confidence": "高",
+ "note": "弓系重击主 C。蓄力射击不纳入，只保留 Q 与 E，顺序 q→e。"
+}

@@ -1,0 +1,13 @@
+{
+ "duration": 10,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "琴",
+   "condition": "e-ready(琴) && since(琴) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "风系奶 + 风套辅：E 起手扩散减抗，Q 全队治疗。一轮只放这两个技能。"
+}

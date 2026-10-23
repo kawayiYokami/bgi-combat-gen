@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.3",
+ "operations": [
+  {
+   "name": "茜特菈莉",
+   "condition": "e-ready(茜特菈莉) && since(茜特菈莉) > 16",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台挂冰盾辅：先 E 产冰球进夜魂，Q 吃自己微粒并补足夜魂开启 Opal Fire（挂冰 12~13 秒），EQ 后即离场。"
+}

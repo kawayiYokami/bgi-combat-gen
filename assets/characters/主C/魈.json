@@ -1,0 +1,12 @@
+{
+ "version": "1.3",
+ "operations": [
+  {
+   "name": "魈",
+   "condition": "e-ready(魈)",
+   "action": "e, wait(0.3), wait(0.42), q, j, attack, j, attack, j, attack, j, attack, j, attack"
+  }
+ ],
+ "confidence": "中",
+ "note": "主 C 开场轴：E 必须在 Q 前（Q 期间 E 停止产球，先 E 预充能），Q 后转下落站场，一轮取 5 次下落为代表性节拍。"
+}

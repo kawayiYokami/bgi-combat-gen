@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "奥黛塔",
+   "condition": "e-ready(奥黛塔) && since(奥黛塔) > 12",
+   "action": "@E16"
+  }
+ ],
+ "confidence": "低",
+ "note": "只 E 连点 1.6 秒（@E16，16 下），不放 Q。E 自己按键，不走 e 命令（她的 E 没 CD，BGI 读不到）。"
+}

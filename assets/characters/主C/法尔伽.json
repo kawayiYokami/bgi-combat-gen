@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "法尔伽",
+   "condition": "e-ready(法尔伽)",
+   "action": "attack(0.05), e, wait(0.3), attack(0.2), e, wait(0.3), attack(0.1), e, wait(0.3), attack(0.05), e, wait(0.3), keydown(s), attack(1), keyup(s), attack(2.1), keydown(w), e, wait(0.3), attack(0.05), e, wait(0.3), attack(0.05), e, wait(0.3), attack(0.2), e, wait(0.3), keyup(w), keydown(s), attack(0.5), e, wait(0.3), attack(0.5), e, wait(0.3), keyup(s), attack(0.05), e, wait(0.3), attack(0.05), e, wait(0.3), attack(0.1), e, wait(0.3), attack(0.1), e, wait(0.3), attack(0.35), q"
+  }
+ ],
+ "confidence": "低",
+ "note": "普攻与 E 交替并前后走位，收尾连按 Q。"
+}

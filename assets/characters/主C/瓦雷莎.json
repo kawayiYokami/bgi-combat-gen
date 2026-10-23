@@ -1,0 +1,12 @@
+{
+ "version": "5.5",
+ "operations": [
+  {
+   "name": "瓦雷莎",
+   "condition": "e-ready(瓦雷莎)",
+   "action": "e, wait(0.3), attack, j, attack, e, wait(0.3), attack, j, attack, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "循环 eaaEAAq：E → 起跳下落一套回满夜魂进炽热激情，第二套下落退出激情进极限驱动，此时才放特殊 Q。BGI 无下落指令，用 j + attack 近似。2 命以上可简化为 e, attack, q。"
+}

@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "哥伦比娅",
+   "condition": "e-ready(哥伦比娅) && since(哥伦比娅) > 12",
+   "action": "e, wait(0.3), @A2, q, attack(0.3)"
+  }
+ ],
+ "confidence": "低",
+ "note": "EQ 后接 0.3 秒普攻，用于衔接过渡。"
+}

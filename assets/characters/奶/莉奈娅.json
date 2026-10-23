@@ -1,0 +1,16 @@
+{
+ "operations": [
+  {
+   "name": "莉奈娅Q奶",
+   "condition": "q-ready(莉奈娅) && min(since(莉奈娅Q奶), since(莉奈娅E奶)) > 15",
+   "action": "@E05, @Q10"
+  },
+  {
+   "name": "莉奈娅E奶",
+   "condition": "e-ready(莉奈娅) && min(since(莉奈娅Q奶), since(莉奈娅E奶)) > 15",
+   "action": "@E10"
+  }
+ ],
+ "confidence": "低",
+ "note": "奶。有 Q 时——出场狂点 0.5 秒 E（@E05）→ 狂点 1 秒 Q（@Q10）；没 Q 时——狂点 1 秒 E（@E10）。CD 15 秒。两条同文档，Q奶 在前，靠前后顺序分流：Q 就绪先命中 Q奶，否则落到 E奶。两条共用一个出场计时，任一出场后 15 秒内另一条也不触发。"
+}

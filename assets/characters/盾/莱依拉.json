@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "3.2",
+ "operations": [
+  {
+   "name": "莱依拉",
+   "condition": "e-ready(莱依拉) && since(莱依拉) > 12",
+   "action": "@A2, q, e, wait(0.3)"
+  }
+ ],
+ "confidence": "高",
+ "note": "盾辅，多数情况下先 Q 后 E：先 Q 最大化队友的盾覆盖时长，并让星光弹早点触发多产生夜星。"
+}

@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "4.5",
+ "operations": [
+  {
+   "name": "千织",
+   "condition": "e-ready(千织) && since(千织) > 12",
+   "action": "@A2, q, e, wait(0.3), wait(0.6), e, wait(0.3)"
+  }
+ ],
+ "confidence": "中",
+ "note": "连招是 EE：第一段 E 召唤人偶，QTE 窗口内再按 E 触发织锦（切人并让人偶协同攻击）；Q 可用时前置。"
+}

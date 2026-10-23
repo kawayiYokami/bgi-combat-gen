@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "叶洛亚",
+   "condition": "e-ready(叶洛亚) && since(叶洛亚) > 12",
+   "action": "e, wait(0.3), @开Q前置, @A2, q"
+  }
+ ],
+ "confidence": "低",
+ "note": "E 起手；Q 部分＝先连按两次 Q（keypress）、再等 0.1 秒，最后用官方 q 开大。"
+}

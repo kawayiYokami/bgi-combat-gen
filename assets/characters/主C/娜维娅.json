@@ -1,0 +1,12 @@
+{
+ "version": "4.3",
+ "operations": [
+  {
+   "name": "娜维娅",
+   "condition": "e-ready(娜维娅)",
+   "action": "keydown(VK_E), wait(0.4), keyup(VK_E), @AQ1, @AQ1, @AQ1, @AQ1, @AQ1, keydown(VK_E), wait(0.4), keyup(VK_E), @AQ1, @AQ1, @AQ1, @AQ1, @AQ1"
+  }
+ ],
+ "confidence": "中",
+ "note": "岩系站场主 C，长按 E 0.4 秒（keydown/wait/keyup）→ A 与 Q 乱按 5 秒（@AQ1 ×5），共 2 轮。Q 走 keypress(VK_Q)。"
+}

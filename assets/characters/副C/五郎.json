@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "2.3",
+ "operations": [
+  {
+   "name": "五郎",
+   "condition": "e-ready(五郎) && since(五郎) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "E 立旗给防御/岩伤，Q 展开大将威仪领域；纯辅助不站场。一轮只放一次 E——持续与 CD 同为 10 秒。"
+}

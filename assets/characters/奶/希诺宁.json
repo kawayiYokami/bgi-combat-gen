@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.1",
+ "operations": [
+  {
+   "name": "希诺宁",
+   "condition": "e-ready(希诺宁) && since(希诺宁) > 15",
+   "action": "e, wait(0.3), attack(0.4)"
+  }
+ ],
+ "confidence": "中",
+ "note": "本质是 EAAA——E 进夜魂状态，普攻命中回能、填满采样器并激活减抗。attack(0.4) = 3 段普攻（N 段 = attack((N-1)*0.2)）。"
+}

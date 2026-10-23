@@ -1,0 +1,13 @@
+{
+ "tail": true,
+ "version": "2.1",
+ "operations": [
+  {
+   "name": "心海主C",
+   "condition": "q-ready(珊瑚宫心海) && since(心海主C) > 12",
+   "action": "q, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1"
+  }
+ ],
+ "confidence": "中",
+ "note": "奶 C 形态（双定位拆自主C/奶）。开 Q 进「仪来羽衣」，随后普攻 10 秒（@A1 每段 1 秒）。"
+}

@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "3.1",
+ "operations": [
+  {
+   "name": "坎蒂丝",
+   "condition": "e-ready(坎蒂丝) && since(坎蒂丝) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "核心用途是 Q：给全队普攻增伤并在 9 秒内给近战角色水附魔。E 取点按（快速水伤 + 2 微粒，CD 6 秒）；长按是护盾（CD 9 秒），且 BGI 里坎蒂丝的 e(hold) 固定长按 3 秒、代价很高，只在需要护盾时才用。纯后台辅助，普攻无价值。"
+}

@@ -1,0 +1,13 @@
+{
+ "god": true,
+ "version": "2.1",
+ "operations": [
+  {
+   "name": "雷电将军",
+   "condition": "q-ready(雷电将军)",
+   "action": "dash, @AQ1, @AQ1, @AQ1, @AQ1, @AQ1, @AQ1, @AQ1, @AQ1, @AQ1, @AQ1"
+  }
+ ],
+ "confidence": "高",
+ "note": "E 由先手动作负责放；站场条目上场先向前闪避一下（dash）→ 普攻与 Q 交替猛点 10 秒（@AQ1 ×10，共 50 普攻 + 50 Q）。出场条件 q-ready(雷电将军)。"
+}

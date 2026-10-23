@@ -1,0 +1,13 @@
+{
+ "duration": 15,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "七七",
+   "condition": "e-ready(七七) && since(七七) > 15",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "低",
+ "note": "EQ 即可，普攻对后台轴无价值。"
+}

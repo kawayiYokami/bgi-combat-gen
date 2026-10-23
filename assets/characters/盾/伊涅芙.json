@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.8",
+ "operations": [
+  {
+   "name": "伊涅芙",
+   "condition": "e-ready(伊涅芙) && since(伊涅芙) > 16",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "纯后台辅助：E 展开护盾并召唤薇尔琪特（20 秒挂雷），Q 高倍率雷伤 + 重置召唤物 + 全队精通增益。多数流程 E→Q 即可离场。"
+}

@@ -1,0 +1,12 @@
+{
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "刻晴",
+   "condition": "e-ready(刻晴)",
+   "action": "e, wait(0.3), q, e, wait(0.3), attack, charge(0.6), attack, charge(0.6), attack, charge(0.6), attack, charge(0.6), attack, charge(0.6)"
+  }
+ ],
+ "confidence": "高",
+ "note": "短站场主 C，重击流。默认轴 `EQE 5[N1C]`：E 掷镖 → Q → 第二次 E 闪现并获得 5 秒雷附魔 → 循环「普攻一下接重击（双段）」。BGI 的 charge 是长按左键，能打出重击。"
+}

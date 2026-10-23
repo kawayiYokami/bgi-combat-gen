@@ -1,0 +1,4 @@
+{
+ "name": "玛拉妮起手",
+ "action": "keydown(VK_W), wait(0.2), keyup(VK_W), attack"
+}

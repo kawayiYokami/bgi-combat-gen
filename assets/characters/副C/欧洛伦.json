@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.2",
+ "operations": [
+  {
+   "name": "欧洛伦",
+   "condition": "e-ready(欧洛伦) && since(欧洛伦) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台雷副 C，不站场：E 在敌人之间弹跳挂雷，Q 造成范围伤害并持续嘲讽挂雷，两者都在后台生效（伤害主要来自 A1 的夜魂迸发）。BGI 的 e 自带 0.2 秒等待，不需要额外补。"
+}

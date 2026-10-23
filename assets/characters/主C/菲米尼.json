@@ -1,0 +1,12 @@
+{
+ "version": "4.0",
+ "operations": [
+  {
+   "name": "菲米尼",
+   "condition": "e-ready(菲米尼)",
+   "action": "e, wait(0.3), q, attack(0.2), e, wait(0.3), attack(0.2), e, wait(0.3), attack(0.2), e, wait(0.3), attack(0.2), e, wait(0.3)"
+  }
+ ],
+ "confidence": "中",
+ "note": "默认物理战技 C：E 进 Pers Timer，普攻叠压，Q 进 Subnautical Hunter（大剑强化，每次普攻 +2 压）并重置 E。标准物理循环约 EQ N2 [E N2 E N1]×2，N2 = attack(0.2)。关键：Q 后 E 的冷却由 10 秒降到 3 秒，所以要先 Q 才放得出连续 E。"
+}

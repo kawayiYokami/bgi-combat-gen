@@ -1,0 +1,4 @@
+{
+ "name": "开Q前置",
+ "action": "keypress(VK_Q), wait(0.1), keypress(VK_Q)"
+}

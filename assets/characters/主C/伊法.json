@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "伊法",
+   "condition": "e-ready(伊法)",
+   "action": "e, wait(0.3), q, attack(12)"
+  }
+ ],
+ "confidence": "低",
+ "note": "EQ 后一直普攻 12 秒（attack(12)），输出全在附魔普攻上。"
+}

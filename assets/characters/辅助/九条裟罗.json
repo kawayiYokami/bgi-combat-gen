@@ -1,0 +1,14 @@
+{
+ "tail": true,
+ "duration": 12,
+ "version": "2.1",
+ "operations": [
+  {
+   "name": "九条裟罗",
+   "condition": "e-ready(九条裟罗) && since(九条裟罗) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "雷系攻击拐，不站场。E→Q：E 给前台上攻，Q 造成范围雷伤并同样施加上攻、可部分兜底。"
+}

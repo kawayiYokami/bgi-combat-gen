@@ -1,0 +1,12 @@
+{
+ "version": "3.0",
+ "operations": [
+  {
+   "name": "提纳里",
+   "condition": "e-ready(提纳里)",
+   "action": "e, wait(0.3), charge(0.6), wait(0.3), q, charge(0.6), wait(0.3), q, charge(0.6), wait(0.3), q"
+  }
+ ],
+ "confidence": "中",
+ "note": "蓄力弓 C。先 E（放下无实体嘲讽并给「通塞识」），之后每轮「长按左键蓄力 0.6 秒 → 松手 → 等 0.3 秒」共 3 次，每轮蓄力完成后尝试开 Q（官方 q，图标就绪才按）。E、Q 与重击之间都由 wait(0.3) 隔开——E 后图标变色需要等恢复。"
+}

@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.6",
+ "operations": [
+  {
+   "name": "爱诺",
+   "condition": "e-ready(爱诺) && since(爱诺) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "纯后台挂水辅：E 带牵引位移、产 3 颗水微粒，先放回能；Q 展开固定水域高频挂水。E→Q 后即离场。"
+}

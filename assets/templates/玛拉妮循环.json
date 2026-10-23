@@ -1,0 +1,4 @@
+{
+ "name": "玛拉妮循环",
+ "action": "keydown(VK_W), wait(0.2), keyup(VK_W), keydown(VK_S), wait(0.2), keyup(VK_S), keydown(VK_W), wait(0.2), keyup(VK_W), keydown(VK_S), wait(0.2), keyup(VK_S), keydown(VK_W), wait(0.2), keyup(VK_W), keydown(VK_S), wait(0.2), keyup(VK_S), keydown(VK_W), wait(0.2), keyup(VK_W), keydown(VK_S), wait(0.2), keyup(VK_S), keydown(VK_W), wait(0.2), keyup(VK_W), keydown(VK_S), wait(0.2), keyup(VK_S), keydown(VK_W), wait(0.2), keyup(VK_W), attack"
+}

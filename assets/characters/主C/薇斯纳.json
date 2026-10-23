@@ -1,0 +1,12 @@
+{
+ "duration": 12,
+ "operations": [
+  {
+   "name": "薇斯纳",
+   "condition": "e-ready(薇斯纳)",
+   "action": "@EAQ3, @EAQ3, @EAQ3, @EAQ3"
+  }
+ ],
+ "confidence": "低",
+ "note": "主 C，出场后持续 12 秒不停按 E→A→Q（@EAQ3 = 3 秒 ×4）。全走 keypress 自己按键，不走官方 e/q。"
+}

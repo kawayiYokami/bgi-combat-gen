@@ -1,0 +1,12 @@
+{
+ "version": "1.5",
+ "operations": [
+  {
+   "name": "烟绯",
+   "condition": "e-ready(烟绯)",
+   "action": "attack, e, wait(0.3), q, attack(0.4), charge(1.32), attack(0.4), charge(1.32), attack(0.4), charge(1.32), attack, e, wait(0.3), charge(1.32)"
+  }
+ ],
+ "confidence": "中",
+ "note": "标准轴 N1 EQ 3[N3C] N1 E C：E 与 Q 各自直接给满丹火印，故 EQ 后立刻接重击；中段 3 组 N3C，收尾 E→C。重击帧 79≈1.32 秒，N3 = attack(0.4)。"
+}

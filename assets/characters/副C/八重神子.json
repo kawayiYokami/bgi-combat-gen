@@ -1,0 +1,18 @@
+{
+ "duration": 24,
+ "version": "2.5",
+ "operations": [
+  {
+   "name": "八重神子QEEE",
+   "condition": "e-ready(八重神子) && min(since(八重神子EEE), since(八重神子QEEE)) > 12 && min(since(八重神子EEE), since(八重神子QEEE)) < 22 && since(八重神子QEEE) > 12",
+   "action": "@A2, q, @EEE, dash"
+  },
+  {
+   "name": "八重神子EEE",
+   "condition": "e-ready(八重神子) && min(since(八重神子EEE), since(八重神子QEEE)) > 22 && since(八重神子EEE) > 12",
+   "action": "@EEE, dash"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台副 C。E 为三层充能、最多放置三座杀生樱，樱持续 24 秒，是主要伤害与挂雷来源。Q 只有在场上有杀生樱时才值得放（引爆三樱），故按「距上次铺满三樱的时间」分段：12~22 秒窗口内樱还在，回来 Q 引爆 + EEE 重铺（QEEE 条）；≥22 秒樱即将到期，只 EEE 重铺（EEE 条）；12 秒内不出场，阈值留 2 秒余量。基准用最近一次铺樱的时刻，插队只会推后出场、自然降级为只重铺。E 要配合方向键才能稳定放出三段——每段按住对应方向键、期间每 0.1 秒点一次 E、约 0.5 秒后松开，方向序列「后→后→前」，三段共约 1.5 秒；每次铺完接一个向前闪避。纯 keypress 连点只能放出一两段。"
+}

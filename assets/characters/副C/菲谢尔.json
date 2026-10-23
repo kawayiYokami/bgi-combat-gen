@@ -1,0 +1,13 @@
+{
+ "duration": 10,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "菲谢尔",
+   "condition": "e-ready(菲谢尔) && since(菲谢尔) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台副 C，不站场。E 放下奥兹（持续 10 秒挂雷），Q 同样是放奥兹并刷新在场时长，两者共用一套召唤物机制；弓蓄力只触发 A1，即使站场输出也不值得用，所以不放 charge。"
+}

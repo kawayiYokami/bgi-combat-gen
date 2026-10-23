@@ -1,0 +1,12 @@
+{
+ "version": "1.1",
+ "operations": [
+  {
+   "name": "达达利亚",
+   "condition": "e-ready(达达利亚)",
+   "action": "e, wait(0.3), attack(0.2), charge(0.92), attack(0.2), charge(0.92), attack(0.2), charge(0.92), q, e, wait(0.3)"
+  }
+ ],
+ "confidence": "高",
+ "note": "0 命标准一套：E 切近战 → mN2C 连段（2 段普攻 + 重击）3 组 → 近战态 Q → 末尾再按一次 E 手动切回远程。手动早退能把 E 的冷却压到最短，等自动结束反而更久。近战重击帧 55÷60≈0.92 秒。"
+}

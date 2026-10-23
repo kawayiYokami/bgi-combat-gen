@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "兹白",
+   "condition": "e-ready(兹白)",
+   "action": "@E03, @E03, q, @AE6, @AE6, @AE6, @AE6, @AE6, @AE6, @AE6"
+  }
+ ],
+ "confidence": "低",
+ "note": "EE 起手（@E03 ×2）→ Q → 普攻与 E 交替猛按 42 轮（@AE6 ×7，每轮 0.1 秒普攻 + 0.1 秒 E，共 8.4 秒）。普攻自己按 keypress(VK_LBUTTON)，每 0.1 秒一下；不用 attack（它每次自带 200ms，会把时长拖长一倍）。"
+}

@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.8",
+ "operations": [
+  {
+   "name": "塔利雅",
+   "condition": "e-ready(塔利雅) && since(塔利雅) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "纯辅助：E 只为接触敌人产球，Q 才是核心（护盾 + 基于生命上限的攻击速度加成，持续 12 秒，要在主 C 出场前给）。"
+}

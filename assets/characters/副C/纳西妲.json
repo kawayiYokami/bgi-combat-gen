@@ -1,0 +1,14 @@
+{
+ "god": true,
+ "duration": 25,
+ "version": "3.2",
+ "operations": [
+  {
+   "name": "纳西妲",
+   "condition": "e-ready(纳西妲) && since(纳西妲) > 12",
+   "action": "@转圈E, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "不站场的后台挂草兼增伤：E 标记敌人并持续挂草，Q 开摩耶之殿给全队增伤。E 长按原地扫射一圈（按住 E 后朝右甩鼠标 5 段 ×2100px 扫完 360 度再松开），一次标记周围多个敌人。"
+}

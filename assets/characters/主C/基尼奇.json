@@ -1,0 +1,12 @@
+{
+ "version": "5.0",
+ "operations": [
+  {
+   "name": "基尼奇",
+   "condition": "e-ready(基尼奇)",
+   "action": "@AQE3, @AQE3, @AQE3, @AQE3"
+  }
+ ],
+ "confidence": "中",
+ "note": "前台主 C，普攻 / Q / E 不停交替按 12 秒（@AQE3 = 3 秒 ×4）。三者都走 keypress 自己按键，不用官方 e/q。"
+}

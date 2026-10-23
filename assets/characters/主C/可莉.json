@@ -1,0 +1,12 @@
+{
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "可莉",
+   "condition": "e-ready(可莉)",
+   "action": "e, wait(0.3), e, wait(0.3), q, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1"
+  }
+ ],
+ "confidence": "中",
+ "note": "站场主 C，E E Q（两发 E 先打掉自己两层，再 Q）→ 连续普攻 10 秒（@A1 ×10）。"
+}

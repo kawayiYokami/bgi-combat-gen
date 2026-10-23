@@ -1,0 +1,14 @@
+{
+ "god": true,
+ "duration": 20,
+ "version": "1.1",
+ "operations": [
+  {
+   "name": "钟离",
+   "condition": "e-ready(钟离) && since(钟离) > 12",
+   "action": "e(hold), wait(0.3), q"
+  }
+ ],
+ "confidence": "高",
+ "note": "长按 E 生成玉璋护盾并减抗，放完即下场。"
+}

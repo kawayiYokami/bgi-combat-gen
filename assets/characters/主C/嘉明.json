@@ -1,0 +1,12 @@
+{
+ "version": "4.4",
+ "operations": [
+  {
+   "name": "嘉明",
+   "condition": "e-ready(嘉明)",
+   "action": "q, e, wait(0.3), wait(0.87), j, attack, e, wait(0.3), wait(0.87), j, attack, e, wait(0.3), wait(0.87), j, attack, e, wait(0.3), wait(0.87), j, attack, e, wait(0.3), wait(0.87), j, attack"
+  }
+ ],
+ "confidence": "中",
+ "note": "前台下落主 C，`j, attack` 是正当的下落攻击：Q 开「舞兽态势」并召唤文仔，文仔返回时重置 E，E 腾跃后接下落即强化型「踏云献瑞」。Q 窗口 12 秒内可打 4~6 次强化下落，取 5 次。"
+}

@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "4.4",
+ "operations": [
+  {
+   "name": "闲云",
+   "condition": "e-ready(闲云) && since(闲云) > 18",
+   "action": "@E09, @A9, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "E 连点 0.9 秒（@E09，9 下）→ 普攻 0.9 秒（@A9，左键 9 下）→ q。E 与普攻都自己按键，不走 e 命令。"
+}

@@ -1,0 +1,13 @@
+{
+ "tail": true,
+ "duration": 15,
+ "operations": [
+  {
+   "name": "沃雅妮莎",
+   "condition": "e-ready(沃雅妮莎) && since(沃雅妮莎) > 12",
+   "action": "e, wait(0.3), @A2"
+  }
+ ],
+ "confidence": "低",
+ "note": "技能就 EA、不放 Q。定位辅助。"
+}

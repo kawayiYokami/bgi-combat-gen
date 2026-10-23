@@ -1,0 +1,4 @@
+{
+ "name": "转圈E",
+ "action": "keydown(VK_E), wait(0.25), moveby(2100,0), wait(0.05), moveby(2100,0), wait(0.05), moveby(2100,0), wait(0.05), moveby(2100,0), wait(0.05), moveby(2100,0), wait(0.05), keyup(VK_E)"
+}

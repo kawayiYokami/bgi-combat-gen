@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "杜林",
+   "condition": "e-ready(杜林) && since(杜林) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "低",
+ "note": "EQ 即可，纯后台辅助，普攻无价值。"
+}

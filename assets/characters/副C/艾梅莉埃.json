@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "4.8",
+ "operations": [
+  {
+   "name": "艾梅莉埃",
+   "condition": "e-ready(艾梅莉埃) && since(艾梅莉埃) > 12",
+   "action": "@A2, q, e, wait(0.3)"
+  }
+ ],
+ "confidence": "中",
+ "note": "纯后台草副 C，不站场。她的主要伤害来自 E 创建的柔灯之匣。顺序取 Q→E：Q 创建三阶匣并刷新二阶匣（延续灯匣的主要手段），Q 后接 E 补一次战技伤害且不重置品阶。"
+}

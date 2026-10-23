@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "2.1",
+ "operations": [
+  {
+   "name": "埃洛伊",
+   "condition": "e-ready(埃洛伊) && since(埃洛伊) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "冰系副 C/爆发：E 产 5 球并叠线圈层，Q 是 610% 倍率核爆。BGI 无法表达瞄准，所以不放蓄力箭。"
+}

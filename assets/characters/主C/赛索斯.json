@@ -1,0 +1,12 @@
+{
+ "version": "4.7",
+ "operations": [
+  {
+   "name": "赛索斯",
+   "condition": "e-ready(赛索斯)",
+   "action": "e, wait(0.3), q, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1"
+  }
+ ],
+ "confidence": "中",
+ "note": "EQ 起手开状态，随后普攻 10 秒（@A1 ×10）是主要输出段。"
+}

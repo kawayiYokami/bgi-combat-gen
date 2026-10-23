@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "凯亚",
+   "condition": "e-ready(凯亚) && since(凯亚) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台冰副 C：E 后接 Q 吃自己微粒，普攻对后台轴无价值。一轮只放一次 E（CD 6 秒）。"
+}

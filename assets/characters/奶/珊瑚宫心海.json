@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "2.1",
+ "operations": [
+  {
+   "name": "心海奶",
+   "condition": "e-ready(珊瑚宫心海) && since(心海奶) > 20",
+   "action": "e, wait(0.3)"
+  }
+ ],
+ "confidence": "中",
+ "note": "奶定位：只放点按 E（水母 12 秒，范围挂水并治疗）。"
+}

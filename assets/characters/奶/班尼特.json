@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "班尼特",
+   "condition": "e-ready(班尼特) && since(班尼特) > 15",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "固定轴 E→Q：E 点按产球自充，再 Q 铺领域给全队加攻/治疗。一轮只放一次 E（CD 5 秒）。"
+}

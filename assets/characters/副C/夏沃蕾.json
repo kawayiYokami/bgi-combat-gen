@@ -1,0 +1,13 @@
+{
+ "duration": 15,
+ "version": "4.3",
+ "operations": [
+  {
+   "name": "夏沃蕾",
+   "condition": "e-ready(夏沃蕾) && since(夏沃蕾) > 12",
+   "action": "@A2, q, e(hold), wait(0.3)"
+  }
+ ],
+ "confidence": "高",
+ "note": "Q 先手给火附着以触发超载，hE 才吃到 A4 攻击加成并产球。后台辅助无普攻价值。"
+}

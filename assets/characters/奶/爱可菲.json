@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.6",
+ "operations": [
+  {
+   "name": "爱可菲",
+   "condition": "e-ready(爱可菲) && since(爱可菲) > 15",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "E → 普攻 0.2 秒（@A2）→ Q。纯后台副 C/奶：伤害几乎全在点按 E（跟随的料理机 1 秒一跳并挂 A4 减抗），Q 提供全队治疗 + 减抗。Q 前垫 0.2 秒普攻用于衔接。"
+}

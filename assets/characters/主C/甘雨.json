@@ -1,0 +1,13 @@
+{
+ "duration": 15,
+ "version": "1.2",
+ "operations": [
+  {
+   "name": "甘雨主C",
+   "condition": "e-ready(甘雨)",
+   "action": "keypress(VK_R), wait(0.4), @甘雨箭, @甘雨箭, @甘雨箭"
+  }
+ ],
+ "confidence": "低",
+ "note": "按 R 开镜 → 等 0.4 秒 → 每 2 秒射一箭。蓄力弓 = keydown(左键) 蓄力 + keyup 松开，开镜后 E 由游戏自身判断能否放。每箭蓄力 1.6 秒（含松开共 2 秒），3 箭约 6 秒。BGI 无 aim 命令，开镜只能自己按 R；箭矢命中不受控。"
+}

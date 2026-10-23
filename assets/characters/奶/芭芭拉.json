@@ -1,0 +1,18 @@
+{
+ "duration": 15,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "芭芭拉Q奶",
+   "condition": "q-ready(芭芭拉)",
+   "action": "@Q10"
+  },
+  {
+   "name": "芭芭拉E奶",
+   "condition": "e-ready(芭芭拉) && since(芭芭拉E奶) > 25",
+   "action": "@E10"
+  }
+ ],
+ "confidence": "中",
+ "note": "两种形态。Q 奶——Q 一就绪就出场狂点 Q 1 秒（@Q10）；E 奶——出场狂点 E 1 秒（@E10），冷却 25 秒。两条同文档，Q 奶在前，Q 就绪时优先命中。"
+}

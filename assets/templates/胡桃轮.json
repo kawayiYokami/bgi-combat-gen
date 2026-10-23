@@ -1,0 +1,4 @@
+{
+ "name": "胡桃轮",
+ "action": "keypress(VK_LBUTTON), wait(0.1), keypress(VK_LBUTTON), wait(0.1), keypress(VK_LBUTTON), wait(0.1), keypress(VK_LBUTTON), wait(0.1), keydown(VK_LBUTTON), wait(1), keyup(VK_LBUTTON)"
+}

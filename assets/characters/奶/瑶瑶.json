@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "3.4",
+ "operations": [
+  {
+   "name": "瑶瑶奶",
+   "condition": "e-ready(瑶瑶) && since(瑶瑶奶) > 15",
+   "action": "e, wait(0.3)"
+  }
+ ],
+ "confidence": "中",
+ "note": "奶定位：只放点按 E（挂草 + 治疗）。"
+}

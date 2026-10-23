@@ -1,0 +1,4 @@
+{
+ "name": "EEE",
+ "action": "keydown(VK_S), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keyup(VK_S), keydown(VK_S), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keyup(VK_S), keydown(VK_W), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keyup(VK_W)"
+}

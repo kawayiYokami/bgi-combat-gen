@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "丽莎",
+   "condition": "e-ready(丽莎) && since(丽莎) > 12",
+   "action": "e(hold), wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台挂雷，不站场。长按 E 是核心——引雷落雷、大范围伤害并产元素微粒，点按只是单体挂雷；Q 持续 15 秒挂雷并配合 A4 减防。BGI 的 `e(hold)` 固定按住 1 秒，够引雷通道。"
+}

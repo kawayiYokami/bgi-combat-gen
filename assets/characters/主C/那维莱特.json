@@ -1,0 +1,17 @@
+{
+ "version": "4.1",
+ "operations": [
+  {
+   "name": "那维莱特Q重",
+   "condition": "q-ready(那维莱特)",
+   "action": "q, charge(3)"
+  },
+  {
+   "name": "那维莱特E重",
+   "condition": "e-ready(那维莱特)",
+   "action": "e, wait(0.3), charge(3)"
+  }
+ ],
+ "confidence": "高",
+ "note": "出场时有 Q 就 `q, charge(3)`，没 Q 就 `e, charge(3)`，两个都没好就不出场。靠 Index 让 q-ready 分支先判定（Q 给 6 颗源水之滴、E 给 3 颗，各自接一段重击吸收）。一轮只放一个 E——E 是 12 秒 CD，放两次第二次必空。charge 走 BGI 的那维莱特特化（按住左键并旋转）。"
+}

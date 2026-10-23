@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "卡齐娜",
+   "condition": "e-ready(卡齐娜) && since(卡齐娜) > 12",
+   "action": "s(0.2), e, wait(0.3), wait(1), e, wait(0.3), wait(0.5), w(0.5), attack(5), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "通用纳塔锄地连段：s(0.2), e, wait(1), e, wait(0.5), w(0.5), attack(5), q。"
+}

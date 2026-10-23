@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "1.1",
+ "operations": [
+  {
+   "name": "辛焱",
+   "condition": "e-ready(辛焱) && since(辛焱) > 18",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "物理副 C 轴 Skill→Burst：先 E 铺盾并触发物伤加成/物抗削减、预充能，再用 Q 打出高倍率物理爆发，并用 Q 的 3 级盾覆盖 E 的低级盾。"
+}

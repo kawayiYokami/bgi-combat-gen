@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "4.7",
+ "operations": [
+  {
+   "name": "希格雯奶",
+   "condition": "e-ready(希格雯) && since(希格雯奶) > 18",
+   "action": "e, wait(0.3)"
+  }
+ ],
+ "confidence": "中",
+ "note": "奶定位：只放点按 E（挂水 + 持续治疗全队）。"
+}

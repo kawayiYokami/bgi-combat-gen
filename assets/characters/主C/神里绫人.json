@@ -1,0 +1,12 @@
+{
+ "version": "2.6",
+ "operations": [
+  {
+   "name": "神里绫人",
+   "condition": "e-ready(神里绫人)",
+   "action": "q, e, wait(0.3), attack(5.5)"
+  }
+ ],
+ "confidence": "中",
+ "note": "短轴站场水 C：核心是 E 的 6 秒水附魔「瞬水剑」，窗口内按住普攻循环即可（E 期间禁止重击与下落），整段合并成一个 attack(5.5)。Q 放开头——Q 给领域内普攻增伤 18 秒，前置才能覆盖自己的 E 输出窗。"
+}

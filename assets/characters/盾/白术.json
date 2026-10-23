@@ -1,0 +1,13 @@
+{
+ "duration": 14,
+ "version": "3.6",
+ "operations": [
+  {
+   "name": "白术",
+   "condition": "e-ready(白术) && since(白术) > 20",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "草奶兼挂草辅，不站场：E 造成草伤并治疗全队，Q 生成无缝盾并提供后台持续挂草与治疗。"
+}

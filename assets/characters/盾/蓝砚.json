@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "5.3",
+ "operations": [
+  {
+   "name": "蓝砚",
+   "condition": "e-ready(蓝砚) && since(蓝砚) > 16",
+   "action": "e, wait(0.3), e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "风系盾辅：第一次 E 突进生成风盾（12.5 秒，短于 16 秒 CD），腾空后再按一次 E 抛出翦月环触发扩散减抗——这是同一技能按两次的正当机制；Q 聚怪。盾要覆盖主 C，所以 E 前置。"
+}

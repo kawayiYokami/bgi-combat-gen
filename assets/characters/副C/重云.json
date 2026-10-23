@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "重云",
+   "condition": "e-ready(重云) && since(重云) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台爆发辅/冰附魔位：E 短暂站场生成冰域 + 产球，Q 40 能量、是主要伤害与减抗来源，普攻不练。顺序取 E→Q。"
+}

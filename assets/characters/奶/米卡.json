@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "3.5",
+ "operations": [
+  {
+   "name": "米卡",
+   "condition": "e-ready(米卡) && since(米卡) > 18",
+   "action": "@A2, q, e(hold), wait(0.3)"
+  }
+ ],
+ "confidence": "高",
+ "note": "物理队攻速/治疗辅。循环为「Q 先于长按 E」——先 Q 可早叠 Detector 层，长按 E 命中面更广、利于 A1 物伤层。"
+}

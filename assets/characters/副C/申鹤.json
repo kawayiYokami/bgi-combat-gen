@@ -1,0 +1,13 @@
+{
+ "duration": 15,
+ "version": "2.4",
+ "operations": [
+  {
+   "name": "申鹤",
+   "condition": "e-ready(申鹤) && since(申鹤) > 12",
+   "action": "@E08, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "冰系专辅，连点 E 0.8 秒（@E08，8 下）后再开 Q。"
+}

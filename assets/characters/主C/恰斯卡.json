@@ -1,0 +1,12 @@
+{
+ "version": "5.2",
+ "operations": [
+  {
+   "name": "恰斯卡",
+   "condition": "e-ready(恰斯卡)",
+   "action": "e, wait(0.3), q"
+  }
+ ],
+ "confidence": "中",
+ "note": "站场弓 C。蓄力射击不纳入：BGI 的 charge 只负责按住左键、不负责瞄准，箭能否射出与命中都不受控，所以只保留 E 与 Q。"
+}

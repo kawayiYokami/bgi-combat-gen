@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "4.2",
+ "operations": [
+  {
+   "name": "夏洛蒂",
+   "condition": "e-ready(夏洛蒂) && since(夏洛蒂) > 20",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "纯辅助奶：治疗全在 Q（全队 + 持续奶），E 点按挂标记并产冰微粒，普攻无价值。"
+}

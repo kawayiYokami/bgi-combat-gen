@@ -1,0 +1,4 @@
+{
+ "name": "EAQ1",
+ "action": "keypress(VK_E), wait(0.1), keypress(VK_LBUTTON), wait(0.1), keypress(VK_Q), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_LBUTTON), wait(0.1), keypress(VK_Q), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_LBUTTON), wait(0.1), keypress(VK_Q), wait(0.1), keypress(VK_E)"
+}

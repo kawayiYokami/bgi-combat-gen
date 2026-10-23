@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "莫娜",
+   "condition": "e-ready(莫娜) && since(莫娜) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台辅助，E→Q：先 E 挂水放幻影嘲讽并攒能量，Q 最后放（施放即同时挂泡影与命运增伤，命运计时在泡影被击破前不倒计），放完立刻切主 C 击破泡影吃加成。BGI 的 q 已内置 1.7 秒，不用额外等。"
+}

@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "3.5",
+ "operations": [
+  {
+   "name": "迪希雅",
+   "condition": "e-ready(迪希雅) && since(迪希雅) > 12",
+   "action": "e, wait(0.3), e, wait(0.3)"
+  }
+ ],
+ "confidence": "中",
+ "note": "后台挂火/减伤。一轮把两次 E 都放掉：首按铺火场，再按放 Ranging Flame 造成额外 AoE 并重摆火场位置（第二次按是游戏内的重施放，不受 E 的 20 秒冷却限制）。E→E 帧数 30f≈0.5 秒，减 BGI 内置 0.2 秒得 wait(0.3)。"
+}

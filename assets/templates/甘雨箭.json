@@ -1,0 +1,4 @@
+{
+ "name": "甘雨箭",
+ "action": "keydown(VK_LBUTTON), wait(1.6), keyup(VK_LBUTTON), wait(0.4)"
+}

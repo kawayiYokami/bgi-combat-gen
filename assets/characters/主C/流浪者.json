@@ -1,0 +1,12 @@
+{
+ "version": "3.3",
+ "operations": [
+  {
+   "name": "流浪者",
+   "condition": "e-ready(流浪者)",
+   "action": "e, wait(0.3), @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, @A1, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "站场主 C，E 起手 → 普攻 10 秒（@A1 ×10）→ 元素爆发收尾（Q 会结束 E 状态，必须放最后）。"
+}

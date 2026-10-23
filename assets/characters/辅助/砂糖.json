@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "砂糖",
+   "condition": "e-ready(砂糖) && since(砂糖) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "风套 + 精通拐纯辅：E 触发扩散减抗并借天赋转精通，Q 聚怪兼扩散，两个技能即完成全部辅助功能。C1 带祭礼残章时可 e, dash, e, q 双 E。"
+}

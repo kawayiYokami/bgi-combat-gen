@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "4.0",
+ "operations": [
+  {
+   "name": "琳妮特",
+   "condition": "e-ready(琳妮特) && since(琳妮特) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台风拐：E 固定产 4 颗风球并回血，先用 E 供能；Q 召唤嘲讽炮台并触发天赋全队攻击加成。一轮各放一次。"
+}

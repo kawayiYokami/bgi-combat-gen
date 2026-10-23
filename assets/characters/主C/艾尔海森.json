@@ -1,0 +1,12 @@
+{
+ "version": "3.4",
+ "operations": [
+  {
+   "name": "艾尔海森",
+   "condition": "e-ready(艾尔海森)",
+   "action": "e, wait(0.3), attack(0.4), charge(1), attack(0.4), q"
+  }
+ ],
+ "confidence": "中",
+ "note": "前台主 C：点按 E 开启「琢光镜」后普攻/重击转草伤并触发合作攻击，Q 放最后收尾。点按即可，长按只用于瞬移聚怪或快速下落取消走位，普通输出循环不需要。"
+}

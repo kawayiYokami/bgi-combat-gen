@@ -1,0 +1,4 @@
+{
+ "name": "E03",
+ "action": "keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1), keypress(VK_E), wait(0.1)"
+}

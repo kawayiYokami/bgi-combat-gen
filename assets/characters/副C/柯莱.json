@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "3.0",
+ "operations": [
+  {
+   "name": "柯莱",
+   "condition": "e-ready(柯莱) && since(柯莱) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台挂草，不站场：E 回旋镖去、回各挂一次草，Q 持续 6 秒挂草。一轮各放一次即可。"
+}

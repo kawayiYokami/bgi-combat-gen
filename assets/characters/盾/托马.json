@@ -1,0 +1,13 @@
+{
+ "duration": 18,
+ "version": "2.2",
+ "operations": [
+  {
+   "name": "托马",
+   "condition": "e-ready(托马) && since(托马) > 15",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "标准轴 E→Q：E 先起盾并吃到自己产的球，Q 再叠屏障并进入 15 秒后台火。"
+}

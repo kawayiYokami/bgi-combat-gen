@@ -1,0 +1,12 @@
+{
+ "version": "4.1",
+ "operations": [
+  {
+   "name": "莱欧斯利",
+   "condition": "e-ready(莱欧斯利)",
+   "action": "e, wait(0.3), attack(0.4), charge(0.87), attack(0.4), charge(0.87), attack(0.4), charge(0.87), attack(0.4), charge(0.87), attack(0.4), charge(0.87), attack(0.4), charge(0.87), q"
+  }
+ ],
+ "confidence": "中",
+ "note": "站场冰法 C：E 后进冰拳状态打 N3C（0 命主力连招），CA 52 帧≈0.87 秒、N3 = attack(0.4)；Q 放末尾吃 A4。不打下落攻击——BGI 的 Jump 只发按键不等待，紧跟的 Attack 会在空中被判成下落。"
+}

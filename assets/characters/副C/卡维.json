@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "3.6",
+ "operations": [
+  {
+   "name": "卡维",
+   "condition": "e-ready(卡维) && since(卡维) > 12",
+   "action": "@A2, q, e, wait(0.3), attack(1)"
+  }
+ ],
+ "confidence": "中",
+ "note": "绽放特化前台。Q 是核心——进入强化状态、扩大攻击范围并提高全队绽放核心伤害；E 扫描范围内草原核并立即引爆。站位取决于登场时是否已有种子：已有种子时 E 更该先放，此处按冷启动取 Q→E。"
+}

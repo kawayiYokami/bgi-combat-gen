@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "1.4",
+ "operations": [
+  {
+   "name": "罗莎莉亚",
+   "condition": "e-ready(罗莎莉亚) && since(罗莎莉亚) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台冰副 C，E→Q：先 E 在背后命中触发 A1 暴击加成，该暴击经 A4 分享全队，故必须先 E 后 Q。"
+}

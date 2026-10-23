@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "奈芙尔",
+   "condition": "e-ready(奈芙尔)",
+   "action": "attack(0.08), keydown(VK_LBUTTON), keydown(E), wait(0.015), keyup(E), wait(0.95), keydown(VK_RBUTTON), wait(0.015), keyup(VK_RBUTTON), keydown(S), wait(0.015), keyup(S), wait(0.25), keydown(W), wait(0.015), keyup(W), wait(0.85), keydown(VK_RBUTTON), wait(0.015), keyup(VK_RBUTTON), keydown(S), wait(0.015), keyup(S), wait(0.25), keydown(W), wait(0.015), keyup(W), wait(0.85), keydown(VK_RBUTTON), wait(0.015), keyup(VK_RBUTTON), keydown(S), wait(0.015), keyup(S), wait(0.25), keydown(W), wait(0.015), keyup(W), wait(0.5), keyup(VK_LBUTTON)"
+  }
+ ],
+ "confidence": "中",
+ "note": "按住左键的重击连段：attack(0.08) → keydown(左键) → keydown(E) …… keyup(左键)。BGI 支持 keydown/keyup 裸按键，能还原这类长按连段。"
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "name": "芙宁娜",
+  "character": "芙宁娜",
+  "condition": "since(芙宁娜) > 20",
+  "action": "e, dash, @A2, q"
+ },
+ {
+  "name": "阿蕾奇诺E起手",
+  "character": "阿蕾奇诺",
+  "condition": "e-ready(阿蕾奇诺)",
+  "action": "e"
+ },
+ {
+  "name": "玛薇卡E起手",
+  "character": "玛薇卡",
+  "condition": "e-ready(玛薇卡)",
+  "action": "e"
+ },
+ {
+  "name": "妮露",
+  "character": "妮露",
+  "condition": "e-ready(妮露) && since(妮露) > 12",
+  "action": "@E18"
+ },
+ {
+  "name": "珐露珊",
+  "character": "珐露珊",
+  "condition": "e-ready(珐露珊) && since(珐露珊) > 12",
+  "action": "e, wait(0.3), q"
+ },
+ {
+  "name": "行秋",
+  "character": "行秋",
+  "condition": "e-ready(行秋) && since(行秋) > 21",
+  "action": "@E03, dash, @E03, @Q10, @A5"
+ },
+ {
+  "name": "雷电将军E起手",
+  "character": "雷电将军",
+  "condition": "e-ready(雷电将军)",
+  "action": "e"
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "tail": true,
+ "version": "3.4",
+ "operations": [
+  {
+   "name": "瑶瑶主C",
+   "condition": "q-ready(瑶瑶) && since(瑶瑶主C) > 12",
+   "action": "e, wait(0.3), @A2, q, j, j, j"
+  }
+ ],
+ "confidence": "中",
+ "note": "奶 C 形态（双定位拆自主C/奶）。Q 就绪时 E 放月桂后开 Q 进 5 秒状态，期间连续跳跃。"
+}

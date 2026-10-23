@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "安柏",
+   "condition": "e-ready(安柏) && since(安柏) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "后台定位的关键技能是 E（挂火 + 嘲讽 + 产球）与 Q（高段挂火、带团队增益），轴 E→Q。不放蓄力箭——那是融核蓄力主 C 打法，需要瞄准射击，BGI 的 aim 未实现、不能稳定复现。"
+}

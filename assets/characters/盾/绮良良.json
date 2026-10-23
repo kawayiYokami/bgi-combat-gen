@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "3.7",
+ "operations": [
+  {
+   "name": "绮良良",
+   "condition": "e-ready(绮良良) && since(绮良良) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "草盾辅，不站场：点按 E 生成草护盾并挂草（长按是位移/站场驱动，盾辅不需要），Q 弹射草伤并挂草。一轮只放一个 E。"
+}

@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "1.1",
+ "operations": [
+  {
+   "name": "迪奥娜",
+   "condition": "e-ready(迪奥娜) && since(迪奥娜) > 15",
+   "action": "e(hold), wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "纯盾辅：长按 E 出 5 爪、盾吸收 +75% 且产球更多，落盾后接 Q（治疗 + 冰雾）。"
+}

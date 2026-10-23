@@ -1,0 +1,13 @@
+{
+ "tail": true,
+ "version": "4.7",
+ "operations": [
+  {
+   "name": "希格雯主C",
+   "condition": "q-ready(希格雯) && since(希格雯主C) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "奶 C 形态（双定位拆自主C/奶），Q 就绪时放 E 后开 Q。只点按 E 的奶形态单独成档。"
+}

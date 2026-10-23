@@ -1,0 +1,12 @@
+{
+ "version": "2.3",
+ "operations": [
+  {
+   "name": "荒泷一斗",
+   "condition": "e-ready(荒泷一斗)",
+   "action": "attack, q, attack, e, wait(0.3), attack(0.2), charge(1.8), attack(0.6), charge(1.8), e, wait(0.3), charge(1)"
+  }
+ ],
+ "confidence": "中",
+ "note": "0 命推荐 N1Q N1 E N#2 N#3 C4F N4 C4F E F：N1Q 让 Q 吃到五郎防御并白嫖一层专注；Q 后 N1+E 攒层，两次恶鬼缠身链之间用 N4 补层；一轮放 2 次 E。charge 按住连出重击链。"
+}

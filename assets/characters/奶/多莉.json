@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "3.0",
+ "operations": [
+  {
+   "name": "多莉",
+   "condition": "e-ready(多莉) && since(多莉) > 20",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "回能治疗辅，不站场。E 突进挂雷，Q 开灯灵领域持续回能兼治疗，是她的核心价值。一轮各放一次即够。"
+}

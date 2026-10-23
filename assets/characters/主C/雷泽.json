@@ -1,0 +1,12 @@
+{
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "雷泽",
+   "condition": "e-ready(雷泽)",
+   "action": "e, wait(0.3), q, @AE10"
+  }
+ ],
+ "confidence": "中",
+ "note": "物理站场主 C，E → Q → 普攻与 E 交替连按 10 秒（@AE10）。普攻与 E 都走自己按键 keypress。"
+}

@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "雅珂达",
+   "condition": "e-ready(雅珂达) && since(雅珂达) > 12",
+   "action": "attack(0.2), attack(0.2), keydown(VK_E), w(0.1), a(0.1), s(0.1), d(0.1), w(0.1), a(0.1), s(0.1), d(0.1), w(0.1), a(0.1), s(0.1), d(0.1), w(0.1), a(0.1), s(0.1), d(0.1), w(0.1), a(0.1), s(0.1), d(0.1), keyup(VK_E), attack(0.2), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "连段：attack(0.2) → attack(0.2) → 按住 E → 绕圈（w/a/s/d 各 0.1 秒）→ attack(0.2) → q。keydown(E) 必须配对的 keyup(E)，否则按键会卡住。"
+}

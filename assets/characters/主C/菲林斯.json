@@ -1,0 +1,12 @@
+{
+ "version": "5.8",
+ "operations": [
+  {
+   "name": "菲林斯",
+   "condition": "e-ready(菲林斯)",
+   "action": "e, wait(0.3), attack, e, wait(0.3), q, attack(2.0)"
+  }
+ ],
+ "confidence": "中",
+ "note": "前台站场主 C。E 进「显形」态、普攻转雷伤，状态中再按一次 E 造成雷伤并把 Q 变成耗能更低的短大，0 命轴是「E N1 E 短大 N4 循环」。"
+}

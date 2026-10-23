@@ -1,0 +1,13 @@
+{
+ "duration": 30,
+ "version": "1.2",
+ "operations": [
+  {
+   "name": "阿贝多",
+   "condition": "e-ready(阿贝多) && since(阿贝多) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "低",
+ "note": "EQ 即可，普攻对后台轴无价值。"
+}

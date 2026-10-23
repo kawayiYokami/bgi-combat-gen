@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "阿罗夏",
+   "condition": "e-ready(阿罗夏) && since(阿罗夏) > 12",
+   "action": "e, wait(0.3), q"
+  }
+ ],
+ "confidence": "低",
+ "note": "E → 等 0.3 秒 → Q。按 E 后图标变色导致当场识别不出，停 0.3 秒等恢复。"
+}

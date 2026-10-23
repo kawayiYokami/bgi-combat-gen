@@ -1,0 +1,12 @@
+{
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "迪卢克",
+   "condition": "e-ready(迪卢克)",
+   "action": "q, attack(0.2), e, wait(0.3), attack(0.2), e, wait(0.3), attack(0.2), e, wait(0.3), attack(0.2)"
+  }
+ ],
+ "confidence": "高",
+ "note": "站场火 C，标准连招 Q N2E N2E N2E N2：先 Q 拿火附魔，再把 E 的三段穿插进 N2 之间（普攻与 E 互相取消后摇），重击基本不用。N2 = attack(0.2)。"
+}

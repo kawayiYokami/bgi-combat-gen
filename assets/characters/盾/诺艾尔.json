@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "诺艾尔",
+   "condition": "e-ready(诺艾尔) && since(诺艾尔) > 24",
+   "action": "e, wait(0.3), @A2, q, attack(0.4), dash, attack(0.4), dash, attack(0.4)"
+  }
+ ],
+ "confidence": "中",
+ "note": "E 起盾兼治疗，Q 转岩附魔并把防御折算成攻击，之后 N3D 循环（3 段普攻后 dash 取消后摇，即 attack(0.4), dash）。循环轮数随队伍变化，此处给 3 轮。"
+}

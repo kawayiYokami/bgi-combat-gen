@@ -1,0 +1,14 @@
+{
+ "god": true,
+ "duration": 8,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "温迪",
+   "condition": "e-ready(温迪) && since(温迪) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "高",
+ "note": "后台风拐，站场极短：E 放 Q 前、可由 Q 取消 E 收招。普攻无输出价值。"
+}

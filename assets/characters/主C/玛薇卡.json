@@ -1,0 +1,19 @@
+{
+ "god": true,
+ "duration": 15,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "玛薇卡Q下场",
+   "condition": "q-ready(玛薇卡) && (in-party(丝柯克) || in-party(伊法) || in-party(优菈) || in-party(克洛琳德) || in-party(兹白) || in-party(凝光) || in-party(刻晴) || in-party(可莉) || in-party(嘉明) || in-party(基尼奇) || in-party(奈芙尔) || in-party(娜维娅) || in-party(宵宫) || in-party(希格雯) || in-party(恰斯卡) || in-party(提纳里) || in-party(林尼) || in-party(桑多涅) || in-party(梦见月瑞希) || in-party(法尔伽) || in-party(洛恩) || in-party(流浪者) || in-party(烟绯) || in-party(玛拉妮) || in-party(珊瑚宫心海) || in-party(瑶瑶) || in-party(瓦雷莎) || in-party(神里绫人) || in-party(神里绫华) || in-party(胡桃) || in-party(艾尔海森) || in-party(荒泷一斗) || in-party(莱欧斯利) || in-party(菲林斯) || in-party(菲米尼) || in-party(赛索斯) || in-party(赛诺) || in-party(达达利亚) || in-party(迪卢克) || in-party(那维莱特) || in-party(阿蕾奇诺) || in-party(雷泽) || in-party(雷电将军) || in-party(魈) || in-party(甘雨) || in-party(薇斯纳))",
+   "action": "q"
+  },
+  {
+   "name": "玛薇卡转圈",
+   "condition": "q-ready(玛薇卡)",
+   "action": "q, charge(9)"
+  }
+ ],
+ "confidence": "中",
+ "note": "Q 完的定位分两条：队伍里带其他主 C 时，她只 Q 完立刻下场，把站场时间让给队友；没有其他主 C 时才站场转圈 9 秒。两条都要求 Q 就绪，靠前后顺序分流——Q下场 在前，条件成立就先命中。"
+}

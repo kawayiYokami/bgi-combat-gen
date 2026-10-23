@@ -1,0 +1,14 @@
+[
+ {
+  "name": "温迪站场",
+  "character": "温迪",
+  "condition": "t > 0",
+  "action": "@EQA, @EQA, @EQA, @EQA"
+ },
+ {
+  "name": "通用兜底",
+  "character": "",
+  "condition": "",
+  "action": "@EAQ1"
+ }
+]

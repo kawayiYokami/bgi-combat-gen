@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "尼可",
+   "condition": "e-ready(尼可) && since(尼可) > 16",
+   "action": "@E10"
+  }
+ ],
+ "confidence": "低",
+ "note": "盾定位。出场狂点 E 1 秒，放完即下场。"
+}

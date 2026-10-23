@@ -1,0 +1,12 @@
+{
+ "version": "1.2",
+ "operations": [
+  {
+   "name": "甘雨",
+   "condition": "e-ready(甘雨)",
+   "action": "e, wait(0.3), q"
+  }
+ ],
+ "confidence": "中",
+ "note": "站场弓 C。蓄力射击不纳入：BGI 的 charge 只是长按左键、不负责瞄准，箭能不能射出与命中都不受控，保留的只有 E（冰莲嘲讽）与 Q（冰锥场）。"
+}

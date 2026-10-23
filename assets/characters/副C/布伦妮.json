@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "布伦妮",
+   "condition": "e-ready(布伦妮) && since(布伦妮) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "低",
+ "note": "EQ 即可，纯后台辅助，普攻无价值。"
+}

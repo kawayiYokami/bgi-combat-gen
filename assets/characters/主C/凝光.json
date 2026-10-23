@@ -1,0 +1,12 @@
+{
+ "version": "1.0",
+ "operations": [
+  {
+   "name": "凝光",
+   "condition": "e-ready(凝光)",
+   "action": "attack, e, wait(0.3), dash, attack, charge(0.87), q, charge(0.87), attack(0.2), charge(0.87)"
+  }
+ ],
+ "confidence": "中",
+ "note": "站场连招 N1 E D N1C Q C N2C：先 1 段普攻攒星璇，E 放玉璋屏，dash 穿屏吃岩伤加成，N1C 打重击，Q 让屏额外发宝石，再重击、N2C。一轮只放一个 E（0 命 E CD 12 秒）。重击时长 0.87 秒为近似值。"
+}

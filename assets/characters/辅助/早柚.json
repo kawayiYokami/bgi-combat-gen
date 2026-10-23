@@ -1,0 +1,13 @@
+{
+ "duration": 12,
+ "version": "2.0",
+ "operations": [
+  {
+   "name": "早柚",
+   "condition": "e-ready(早柚) && since(早柚) > 12",
+   "action": "e, wait(0.3), @A2, q"
+  }
+ ],
+ "confidence": "中",
+ "note": "定位是后台爆发奶 + 风拐，Burst 优先。理想手法是 Quick Hold（长按 E 后立刻再点 E 早收）拿 2 次扩散，但 BGI 的 e(hold) 会让早柚一直翻滚，故退化为点按 e。"
+}

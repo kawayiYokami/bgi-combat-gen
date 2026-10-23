@@ -1,0 +1,12 @@
+{
+ "version": "3.1",
+ "operations": [
+  {
+   "name": "赛诺",
+   "condition": "e-ready(赛诺)",
+   "action": "e, wait(0.3), q, attack(1.0), e, wait(0.3), attack(1.0)"
+  }
+ ],
+ "confidence": "中",
+ "note": "长站场主 C。Q 进「启途誓使」后普攻转雷伤，E 被替换为 CD 仅 3 秒的「秘仪·律渊渡魂」并延长状态，标准轴是 `E(N1) Q N2E 3[N5 N2E]`——Q 期间靠普攻与低 CD 的 E 交替输出。"
+}

@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "name": "洛恩",
+   "condition": "e-ready(洛恩)",
+   "action": "attack(0.8), e, wait(0.3)"
+  }
+ ],
+ "confidence": "低",
+ "note": "AAAAA，有 E 放 E。5 段普攻 = attack((5-1)×0.2) = attack(0.8)。入场条件本就是 e-ready，直接普攻 5 段后接 E。"
+}

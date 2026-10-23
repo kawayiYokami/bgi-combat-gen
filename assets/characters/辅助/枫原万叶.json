@@ -1,0 +1,13 @@
+{
+ "duration": 8,
+ "version": "1.6",
+ "operations": [
+  {
+   "name": "枫原万叶",
+   "condition": "e-ready(枫原万叶) && since(枫原万叶) > 9",
+   "action": "keydown(VK_E), wait(0.6), keyup(VK_E), @A12, wait(0.2), q"
+  }
+ ],
+ "confidence": "高",
+ "note": "长按 E 0.6 秒（keydown/keyup）→ 普攻 1.2 秒（@A12，左键 12 下）→ 等 0.2 秒 → q。E 与普攻都自己按键，不走 e 命令；q 前的 0.2 秒是给 Q 图标识别留的余地。"
+}
