@@ -241,7 +241,7 @@ def main():
             "Name": "全角色场景通用",
             "Author": "kawayiYokami",
             "Config": {
-                "介绍": "任何场景、任何配队通用：锄大地、日常、幽境危战、深境螺旋等均可直接使用。遇到异常场景或配队，请到项目仓库提 issue 或 PR。",
+                "介绍": "任何场景、任何配队通用：锄大地、日常、幽境危战、深境螺旋等均可直接使用。遇到异常场景或配队，请到 https://github.com/kawayiYokami/bgi-combat-gen 提 issue 或 PR。",
                 "模型": "每轮按 Index 从高优先级往下扫，第一个条件成立的角色出场，打完自己一整套后回到决策环节。",
                 "排序": "先盾档（永远最先）→ 先手动作（超前批，火神那批）→ 其余定位（奶<副C<辅助<主C）→ 兜底动作；同种内 神明优先 > 持续时间长 > 登场版本靠后。",
                 "生成": "generator/build.py，来源 generator/characters/ + generator/templates/",

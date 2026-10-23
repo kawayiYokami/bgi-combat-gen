@@ -1,8 +1,12 @@
 # 全角色场景通用 · BetterGI 战斗策略
 
+仓库：https://github.com/kawayiYokami/bgi-combat-gen
+
 BetterGI 的 JSON 战斗策略与生成工具。一份策略覆盖全部角色与常见配队，用于锄大地、日常、幽境危战、深境螺旋等场景。
 
-遇到异常的场景或配队，请提 issue；有更好的写法，欢迎 PR。
+遇到异常的场景或配队，请到 [Issues](https://github.com/kawayiYokami/bgi-combat-gen/issues) 反馈；有更好的写法，欢迎 [PR](https://github.com/kawayiYokami/bgi-combat-gen/pulls)。
+
+BetterGI 本体：https://github.com/babalae/better-genshin-impact
 
 ## 直接使用
 
